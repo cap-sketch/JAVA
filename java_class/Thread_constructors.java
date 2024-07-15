@@ -4,6 +4,7 @@ class MyThr1 extends Thread{
     {
         super(name);
     }
+    @Override
     public void run()
     {
         int i=0;
